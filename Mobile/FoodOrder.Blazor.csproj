@@ -50,7 +50,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="Syncfusion.Blazor" Version="20.1.0.58" />
 	  <PackageReference Include="Syncfusion.Blazor.Buttons" Version="20.1.0.58" />
 	  <PackageReference Include="Syncfusion.Blazor.Calendars" Version="20.1.0.58" />
 	  <PackageReference Include="Syncfusion.Blazor.Core" Version="20.1.0.58" />

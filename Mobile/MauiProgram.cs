@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Components.WebView.Maui;
 using FoodOrder.Blazor.Data;
-using MudBlazor.Services;
 using Syncfusion.Blazor;
 
 namespace FoodOrder.Blazor;
@@ -27,6 +26,7 @@ public static class MauiProgram
 
 
             Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NjUwMDkwQDMyMzAyZTMxMmUzMEhYNG91THhKMTZFR2VXYnFzaGdtaE9HRmJqRnBybzZ3Q1RDak05Ni9oOWM9");
+            builder.Services.AddSyncfusionBlazor(options => { options.IgnoreScriptIsolation = true; });
 
             builder.Services.AddSingleton<WeatherForecastService>();
 		}
